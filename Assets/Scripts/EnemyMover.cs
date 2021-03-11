@@ -15,6 +15,6 @@ public class EnemyMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate((player.transform.position - transform.position).normalized * enemySpeed);
+        transform.Translate((player.transform.position - transform.position).normalized.x * enemySpeed * Time.deltaTime, 0.0f, (player.transform.position - transform.position).normalized.z * enemySpeed * Time.deltaTime);
     }
 }
