@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  rotateSpeed: 1
+  rotateSpeed: 100
   follow: {fileID: 0}
 --- !u!114 &27778640795261556
 MonoBehaviour:
