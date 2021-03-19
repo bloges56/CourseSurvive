@@ -21,6 +21,7 @@ public class Destructible : MonoBehaviour
     {
         if(other.transform.tag == "Bullet")
         {
+            Debug.Log("hit");
             Destroy(other.gameObject);
             hitPoints--;
             if(hitPoints == 0)

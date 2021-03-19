@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerDamage : MonoBehaviour
 {
+    [SerializeField] public int hitPoints = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,15 @@ public class PlayerDamage : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.tag == "Enemy"){
+            hitPoints--;
+            Destroy(other.gameObject);
+            if(hitPoints == 0){
+                Destroy(this.gameObject.transform.GetChild(0).gameObject);
+            }
+        }
     }
 }
