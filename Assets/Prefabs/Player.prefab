@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 4427244031704784607}
   - component: {fileID: 4427244031704784600}
   - component: {fileID: 4427244031704784601}
-  - component: {fileID: 4427244031704784602}
-  - component: {fileID: 4427244031704784604}
   m_Layer: 0
   m_Name: Player Shape
   m_TagString: Untagged
@@ -300,36 +298,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4427244031704784603}
   m_Mesh: {fileID: 0}
---- !u!64 &4427244031704784602
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4427244031704784603}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!54 &4427244031704784604
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4427244031704784603}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 36
-  m_CollisionDetection: 0
 --- !u!1 &4427244032788194022
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +311,7 @@ GameObject:
   - component: {fileID: 27778640795261556}
   - component: {fileID: 619620847446294050}
   - component: {fileID: -6630460588095717281}
+  - component: {fileID: 1813455851464104510}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -422,6 +391,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 3
+--- !u!54 &1813455851464104510
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427244032788194022}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 0
 --- !u!1 &6191970039799742752
 GameObject:
   m_ObjectHideFlags: 0
