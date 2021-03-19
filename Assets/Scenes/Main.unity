@@ -225,7 +225,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1202
+  m_Name: pb_Mesh-1206
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -383,6 +383,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &367949163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4427244032788194022, guid: 8a0440e367d89f946af8a456a53431a6, type: 3}
+  m_PrefabInstance: {fileID: 4427244032389123355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 5129476074466282328, guid: 70bad8132bfa4834a8a5eae74a08c2fb, type: 3}
+  player: {fileID: 367949163}
 --- !u!4 &1807384010
 Transform:
   m_ObjectHideFlags: 0
