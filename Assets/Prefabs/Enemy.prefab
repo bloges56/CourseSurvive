@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1948307851523710836}
   - component: {fileID: 9038438070245515107}
   - component: {fileID: 5766291929296077455}
+  - component: {fileID: 2517148995508691610}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,6 +78,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 10
+--- !u!136 &2517148995508691610
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129476074466282328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.7608522
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 1.0082375, y: 1, z: 0}
 --- !u!1 &7073121006276421186
 GameObject:
   m_ObjectHideFlags: 0

@@ -342,6 +342,7 @@ GameObject:
   - component: {fileID: 4427244032788194020}
   - component: {fileID: 27778640795261556}
   - component: {fileID: 619620847446294050}
+  - component: {fileID: -6630460588095717281}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -394,6 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpawn: {fileID: 1550943184572673835}
   bullet: {fileID: 1752739055635026763, guid: 33899c107fadad84ea1ed2f403336e3b, type: 3}
+  fireRate: 0.3
 --- !u!65 &619620847446294050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -402,11 +404,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4427244032788194022}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2677677, y: 1.1435418, z: 1.7671571}
-  m_Center: {x: 0.23628938, y: -2.5408852, z: -1.1150161}
+  m_Size: {x: 1.638394, y: 1.1435418, z: 2.2304397}
+  m_Center: {x: 0.26717508, y: -2.5408852, z: -1.0841308}
+--- !u!114 &-6630460588095717281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427244032788194022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475d02d9a86d3e14784dd2c8855d7a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 3
 --- !u!1 &6191970039799742752
 GameObject:
   m_ObjectHideFlags: 0
