@@ -19,11 +19,10 @@ public class PlayerDamage : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "Enemy"){
-            Debug.Log("Enemy Attack");
             hitPoints--;
             Destroy(other.gameObject);
             if(hitPoints == 0){
-                Destroy(this.gameObject);
+                Destroy(this.gameObject.transform.GetChild(0).gameObject);
             }
         }
     }
